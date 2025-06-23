@@ -5,13 +5,13 @@ This repository contains Python implementations of various **Numerical Methods**
 
 ## 📁 Contents
 
-### 🔹 Root Finding Methods
+### 🔹 Root Finding Methods (root_finding)
 - **Bisection Method**
 - **Regula Falsi (False Position)** – Normal and Modified
 - **Secant Method**
 - **Newton-Raphson Method** (single-variable and system of equations)
 
-### 🔹 Linear System Solvers
+### 🔹 Linear System Solvers (linear_systems)
 - **Gaussian Elimination** (with and without Partial Pivoting)
 - **LU Decomposition** (Doolittle Method)
 - **Iterative Solvers:**
@@ -20,7 +20,7 @@ This repository contains Python implementations of various **Numerical Methods**
   - SOR (Successive Over-Relaxation)
   - SSOR (Symmetric SOR)
 
-### 🔹 Eigenvalue Problems
+### 🔹 Eigenvalue Problems (Eigen Value problem)
 - **Power Method** – To compute the dominant eigenvalue and its eigenvector
 
 ### 🔹 Interpolation
@@ -29,17 +29,15 @@ This repository contains Python implementations of various **Numerical Methods**
 - **Neville’s Method**
 
 ### 🔹 Numerical Differentiation
-- **Forward Difference**
-- **Central Difference**
 - **Richardson Extrapolation**
 - **Euler’s Method**
-- **Runge-Kutta Methods (RK4)**
+- **Runge-Kutta 2nd Order Method** (Midpoint Method)
 
 ### 🔹 Numerical Integration
 - **Trapezoidal Rule**
 - **Simpson’s 1/3 Rule**
 - **Newton-Cotes (Composite, General Degree)**
-- **Romberg Integration** (optional)
+- **Romberg Integration** 
 
 ---
 
